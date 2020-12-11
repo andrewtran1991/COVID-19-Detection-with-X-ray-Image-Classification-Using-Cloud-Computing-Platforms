@@ -1,0 +1,44 @@
+.App {
+
+}
+
+.App-Header {
+  background-color: #ffffff;
+  width: 20px;
+  height: 20px;
+}
+
+.App-Logo {
+
+  width: 300px;
+  height: 200px;
+}
+
+
+.App-Body {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+input[type="file"] {
+  display: none;
+}
+.custom-file-upload {
+  border: none;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  background: url('./images/uploadimage.png') no-repeat;
+  width:300px;
+  height:200px;
+  align-items: center;
+
+}
+
+
+
